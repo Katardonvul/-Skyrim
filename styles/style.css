@@ -1,0 +1,133 @@
+@import "reset.css";
+body{
+	font-family: 'Times New Roman', sans-serif;
+}
+.wrapper{
+	max-width: 1140px ;
+	width: calc(100% - 40px) ;
+	margin: 0 auto;
+}
+.top_line{
+	display: flex;
+	align-items: center;
+	justify-content: space-between ;
+	min-height: 150px;
+	padding-top: 30px;
+}
+header{
+	background: #2777c1;
+}
+.header_nav{
+	font-size: 16px;
+	line-height: 18px ;
+	color: #ffffff;
+	text-transform: uppercase ;
+	font-weight: 400;
+}
+.header_nav a{
+	text-decoration: none;
+	color: inherit;
+}
+.header_nav ul{
+	display: flex;
+}
+.header_nav ul li{
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 30px;
+	line-height: 30px;
+	transition: all 300ms ease-in-out;
+	margin: 0 5px;
+}
+.header_nav ul li.active{
+	background: #fb3333 ;
+	border-radius: 10px ;
+}
+.header_nav ul li:hover {
+	background: #fb3333 ;
+	border-radius: 10px ;
+	transition: all 300ms ease-in-out;
+}
+section.whatis {
+	background: seagreen;
+	padding: 100px 0;
+	text-align: center;
+}
+section.whatis h2 {
+	color: #f7f3ea;
+	font-size: 45px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin-bottom: 85px;
+	position: relative;
+}
+section.whatis .description {
+	color: #f7f3ea;
+	font-size: 30px;
+	line-height: 48px;
+	font-weight: 400;
+}
+section a{
+	color: darkred;
+	text-decoration: none;
+
+}
+section a:hover{
+	color: orangered;
+}
+.stih {
+	background: seagreen;
+	padding-bottom: 60px;
+}
+.stihok {
+	border: 5px solid #71db51;
+	color: black;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+	background: #3d9b5a;
+	padding: 20px 20px;
+	display: inline-block;
+}
+.stih img {
+	max-width: 40%;
+	margin-bottom: 220px;
+	margin-left: 90px;
+}
+
+footer.footer {
+	background: #2777c1;
+}
+.footer_social {
+	color: #f7f3ea;
+	font-size: 45px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.footer_social ul {
+	min-height: 110px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer.footer a{
+	text-decoration: none;
+	color: inherit;
+}
+.footer_social ul li{
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 50px;
+	line-height: 50px;
+	transition: all 300ms ease-in-out;
+	margin: 0 5px;
+}
+.footer_social ul li:hover {
+	background: #fb3333 ;
+	border-radius: 7px ;
+	transition: all 300ms ease-in-out;
+}
