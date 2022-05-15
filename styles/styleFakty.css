@@ -9,6 +9,7 @@ body{
 }
 .top_line{
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between ;
 	min-height: 150px;
@@ -30,6 +31,7 @@ header{
 }
 .header_nav ul{
 	display: flex;
+	flex-wrap: wrap;
 }
 .header_nav ul li{
 	padding-left: 15px;
@@ -76,8 +78,8 @@ section.whatis .description {
 	margin-bottom: 30px;
 }
 section.whatis img {
-	height: 400px;
-	width: 700px;
+	max-width: 700px;
+	max-height: 400px;
 }
 footer.footer {
 	background: #2777c1;
@@ -92,6 +94,7 @@ footer.footer {
 .footer_social ul {
 	min-height: 110px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 }
